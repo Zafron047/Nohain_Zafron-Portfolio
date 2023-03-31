@@ -1,3 +1,5 @@
+/* @import url('https://fonts.cdnfonts.com/css/poppins'); */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,55 +8,53 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 375px;
-  max-height: 718px;
+body {
+display: flex;
+margin: unset;
 }
 
 nav {
-  max-width: 375px;
   display: flex;
   justify-content: space-between;
 }
 
 #logo {
-  width: 76px;
+  width: 88%;
+  /* width: 76px; */
   height: 20px;
-  margin-top: 58px;
-  margin-left: 35px;
+  /* height: 28%; */
+  margin-top: 70%;
+  /* margin-top: 58px; */
+  margin-left: 50%;
+  /* margin-left: 35px; */
 }
 
 .fa-solid {
   width: 18px;
   height: 12px;
   color: #6070ff;
-  margin-right: 35px;
+  margin-right: 1.95rem;
   margin-top: 62px;
+  margin-top: 3.55rem;
   font-size: 18px;
-
-  /* margin-right: 35px; */
-
-  /* margin-top: 62px; */
-
-  /* font-size: 18px; */
 }
 
-main {
+.back-image {
   background-image: url("images/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-
-  /* position: 114px 24px; */
-  gap: 12px;
-
-  /* width: 375px; */
   height: 604px;
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -67,7 +67,7 @@ h1 {
 }
 
 p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   margin-bottom: 5px;
   margin-left: 10%;
   font-style: normal;
@@ -78,35 +78,37 @@ p {
   padding-right: 24px;
 }
 
-a {
-  font-family: "Poppins";
+.connect {
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.so-icons {
+  width: 20px;
+  height: 20px;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10%;
+}
+
+li {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+ul li a {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
-}
-
-.so-icons {
-  width: 20px;
-  height: 20px;
-
-  /* margin-left:2%; */
-}
-
-ul {
-  /* display: inline-block; */
-
-  /* list-style: none; */
-
-  /* padding: 0; */
-
-  /* margin: 0; */
-  margin-left: 10%;
-}
-
-li {
-  display: inline-block;
-  margin-right: 10px;
 }

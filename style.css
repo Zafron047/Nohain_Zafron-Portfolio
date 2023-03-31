@@ -22,6 +22,7 @@ nav {
   /* width: 88%; */
 
   /* width: 76px; */
+
   /* height: 20px; */
 
   /* height: 28%; */
@@ -35,6 +36,7 @@ nav {
 
 .fa-solid {
   /* width: 18px; */
+
   /* height: 12px; */
   color: #6070ff;
   margin-right: 1.95rem;
@@ -63,7 +65,9 @@ h1 {
   font-size: 40px;
   font-style: normal;
   line-height: 52px;
+
   /* width: 327px; */
+
   /* height: 100px; */
   margin-left: 10%;
   margin-top: 128px;
@@ -77,6 +81,7 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+
   /* line-height: 24px; */
   color: #344563;
   padding-right: 24px;

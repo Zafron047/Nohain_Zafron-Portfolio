@@ -96,7 +96,6 @@ p {
 .zaf-social {
   display: inline-block;
   list-style: none;
-  margin-left: 1%;
 }
 
 .zaf-social li {
@@ -119,7 +118,7 @@ p {
   display: grid;
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .cards {

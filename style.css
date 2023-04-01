@@ -119,10 +119,7 @@ p {
   display: grid;
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-
-  /* gap: 2rem; */
-
-  /* border: 5px solid green; */
+  background-color: #E5E5E5;
 }
 
 .cards {

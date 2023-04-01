@@ -230,6 +230,11 @@ p {
   font-style: normal;
 }
 
+.project-button button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -282,6 +287,11 @@ p {
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 33px;
+}
+
+.sct-1 button:hover {
+  background-color: lightblue;
+  cursor: pointer;
 }
 
 #line-1 {

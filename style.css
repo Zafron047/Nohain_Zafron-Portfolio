@@ -269,15 +269,15 @@ p {
 }
 
 .resume {
-  width: 138px;
-  height: 34px;
+  width: 148px;
+  height: 54px;
   margin-left: 40px;
+  margin-bottom: 33px;
   background-color: transparent;
   border-color: #6070ff;
   color: #396df2;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
-  margin-bottom: 33px;
 }
 
 .sct-1 button:hover {

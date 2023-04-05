@@ -342,7 +342,6 @@ p {
   position: relative;
   background-color: #6070ff;
   margin-top: 177px;
-  height: 810px;
   border-top-left-radius: 80px;
   display: flex;
   flex-direction: column;
@@ -356,8 +355,7 @@ p {
 }
 
 .form-bottom {
-  z-index: 10000;
-  position: absolute;
+  z-index: 99;
 }
 
 .form-bottom h2 {
@@ -450,12 +448,13 @@ p {
 }
 
 .btn:hover {
-  background-color: #ec8123;
+  background-color: #bdbdf1;
   color: white;
 }
 
 .form-bottom hr {
   margin: 0 auto;
+  margin-bottom: 8px;
   width: 125px;
   height: 5px;
   background-color: black;

@@ -475,7 +475,9 @@
   /* Desktop version  */
 
   body {
-    overflow-x: hidden;
+   width: 100%;
+   font-family: "Poppins", sans-serif;
+   /* border: 3px solid red; */
   }
 
   .header {
@@ -560,23 +562,23 @@
   .head {
     width: 100vw;
     overflow-x: hidden;
-    padding: 0 260px 0 260px;
+    padding: 0 15% 0 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url(./Images/Header-bg.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
+    border-bottom-left-radius: 20px;
   }
 
   .head h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 52px;
-    display: flex;
+    line-height: 60px;
     letter-spacing: 0.37px;
     color: #091e42;
   }
@@ -585,9 +587,10 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 20px;
     margin-top: 12px;
     color: #344563;
+    text-align: justify;
   }
 
   .connect-btn {
@@ -599,6 +602,7 @@
     color: #7f8cff;
     display: flex;
     justify-content: flex-start;
+    margin-top: 16px;
   }
 
   .head ul {
@@ -610,7 +614,7 @@
   .card-img img {
     width: 100%;
     height: 100%;
-    padding: 4%;
+    /* padding: 4% 0 4% 4%; */
   }
 
   .head li img {
@@ -618,19 +622,25 @@
     width: 19px;
     height: 19px;
   }
+/* 
+  .main-container {
+    border: 2px solid green;
+  } */
 
   .works {
     display: grid;
     width: 100%;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr;
+    /* margin: 4%; */
     background-color: #e5e5e5;
+    /* border: 2px solid rgb(13, 0, 128); */
   }
 
-  .card {
+  /* .card {
     display: none;
-  }
-
+  } */
+/* 
   .cards-row {
     display: flex;
     justify-content: space-evenly;
@@ -642,25 +652,40 @@
     height: auto;
     background: #fff;
     border-radius: 16px;
+  } */
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+    max-width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 2%;
+    gap: 1.5%;
   }
 
   .card-img {
-    width: 60%;
+    width: 50%;
   }
 
   .card-info {
-    width: 40%;
-    padding: 5% 2.5% 0 2.5%;
-    margin-bottom: 10%;
+    width: 50%;
+    /* padding: 5% 0 0 2.5%; */
+    /* margin-bottom: 10%; */
     display: flex;
     flex-direction: column;
     height: auto;
+    padding: 1% 0 0 1.5%;
+    /* border: 2px solid rgb(0, 85, 128); */
   }
 
   .card-info h2 {
-    padding-top: 48px 0;
-    padding-left: 5%;
-    padding-bottom: 20px;
+    /* padding-top: 48px 0; */
+    /* padding-left: 5%; */
+    /* padding-bottom: 20px; */
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -669,7 +694,7 @@
   }
 
   .exp {
-    padding-left: 5%;
+    /* padding-left: 5%; */
     padding-bottom: 12px;
   }
 
@@ -679,13 +704,13 @@
 
   .job-info {
     margin: 0%;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     padding-bottom: 12px;
     font-style: normal;
   }
 
   .skill {
-    padding-left: 4%;
+    /* padding-left: 4%; */
     float: left;
     padding-bottom: 12px;
     font-size: 20px;
@@ -693,7 +718,7 @@
   }
 
   .project-button {
-    padding-left: 5%;
+    /* padding-left: 5%; */
     padding-bottom: 12px;
   }
 
@@ -843,6 +868,9 @@
 
   .sct-2 .arrow > p {
     padding-left: 2%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .languages {
@@ -974,8 +1002,8 @@
   }
 
   .desk-form .btn:hover {
-    background-color: #bdbdf1;
-    color: white;
+    background-color: #6070ff;
+    color: #fff;
   }
 
   .form-bottom hr {
@@ -990,23 +1018,29 @@
   }
 
   .head .btn:hover {
-    color: #3d4cd7;
+    background-color: #6070ff;
+    color: #fff;
     cursor: pointer;
   }
 
   .header-right ul li a:hover {
-    color: #6070ff;
+    background-color: #8e95d1;
+    padding: 10%;
+    color: #fff;
     transition: 0.5em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    border-radius: 20%;
   }
 
   .project-button button:hover {
-    background-color: lightskyblue;
+    background-color: #6070ff;
+    color: #fff;
     cursor: pointer;
   }
 
   .sct-1 button:hover {
-    background-color: lightblue;
+    background-color: #6070ff;
+    color: #fff;
     cursor: pointer;
   }
 }
